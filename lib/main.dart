@@ -35,8 +35,7 @@ class HomePageState extends State<HomePage> {
 
     this.setState((){
       data = jsonDecode(response.body);
-    });
-    
+    });    
     //print(data);
 
     return "Success!";
